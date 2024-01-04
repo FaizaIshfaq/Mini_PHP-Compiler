@@ -44,6 +44,6 @@ After meeting the requirements you should open this project in the command line 
 ---- You need to press **a** for execution after that it will show the symbol table and successful compilation message.---
 
 Below is the output of code and symbol table:
-![output]((https://github.com/FaizaIshfaq/Mini_PHP-Compiler/blob/main/assets/output.png)
+![outputImage]((https://github.com/FaizaIshfaq/Mini_PHP-Compiler/blob/main/assets/output.png)
 
 

@@ -21,4 +21,4 @@ If the code carries an error it displays the message
 “Code cannot be compiled ” and also displays the
 type and line number of error.
 
-This project does not implement semantic actions.
+This project does not implement semantic actions and automatic error recovery.

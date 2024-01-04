@@ -13,7 +13,7 @@ code of “Mini PHP” as input.
 It writes all the tokens <TokenType, Lemexe> in
 separate file “token.txt”.
 It writes all the Identifiers in a separate file
-“Identifier.txt”.
+“Identifier.txt”. Symbol table will be stored in the Identifier.txt file. (change of value of a variable to a different data type is also incorporated in this go and check source file and then identifiers file.)
 If the code is successfully parsed showing the given
 message
 “Code Compiled Successfully”

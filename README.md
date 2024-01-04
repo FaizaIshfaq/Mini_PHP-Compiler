@@ -32,9 +32,13 @@ This project does not implement semantic actions and automatic error recovery te
 (For this i'll provide the setup files in this repository.)
 
 After meeting the requirements you should open this project in the command line terminal where your project exists and run the following commands:
+
 bison -d program.y
+
 flex program.l
+
 gcc lex.yy.c program.tab.c
+
 a
 
 ---- You need to press **a** for execution after that it will show the symbol table and successful compilation message.---

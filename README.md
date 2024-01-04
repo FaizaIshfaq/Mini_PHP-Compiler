@@ -24,8 +24,10 @@ type and line number of error.
 This project does not implement semantic actions and automatic error recovery techniques.
 
 **Requirements for running this program:**
+
 -> you must have gcc installed in your system.
 (For installing gcc in Windows install **mingw** from this link https://sourceforge.net/projects/mingw/files/latest/download )
+
 -> Bison and Flex should also installed.
 (For this i'll provide the setup files in this repository.)
 

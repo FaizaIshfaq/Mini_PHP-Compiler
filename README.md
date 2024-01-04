@@ -5,7 +5,9 @@ This project implements the following:
 1. Implement the lexical analysis phase.
 2. Implement the syntax analysis phase.
 3. Implement symbol table manager (Register Variables).
-5. Report error in case of error (lex, syntax).
+4. Report error in case of error (lex, syntax).
+
+   
 A source file “source.txt” containing the source
 code of “Mini PHP” as input.
 It writes all the tokens <TokenType, Lemexe> in
@@ -18,3 +20,5 @@ message
 If the code carries an error it displays the message
 “Code cannot be compiled ” and also displays the
 type and line number of error.
+
+This project do not implements semantic actions.

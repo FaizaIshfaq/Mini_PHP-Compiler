@@ -1,5 +1,5 @@
 # Mini_PHP-Compiler
-Mini PHP Compiler with Syntax, Lexical, and Symbol Table Implementation using automated tool LEX and YACC
+Mini PHP Compiler with Syntax, Lexical, and Symbol Table Implementation using automated tools LEX and YACC
 It is a case insensitive language.
 This project implements the following:
 1. Implement the lexical analysis phase.
@@ -14,7 +14,7 @@ It writes all the tokens <TokenType, Lemexe> in
 separate file “token.txt”.
 It writes all the Identifiers in a separate file
 “Identifier.txt”.
-If the code is successfully parsed show the given
+If the code is successfully parsed showing the given
 message
 “Code Compiled Successfully”
 If the code carries an error it displays the message
@@ -22,3 +22,18 @@ If the code carries an error it displays the message
 type and line number of error.
 
 This project does not implement semantic actions and automatic error recovery techniques.
+
+**Requirements for running this program:**
+-> you must have gcc installed in your system.
+(For installing gcc in Windows install **mingw** from this link https://sourceforge.net/projects/mingw/files/latest/download )
+-> Bison and Flex should also installed.
+(For this i'll provide the setup files in this repository.)
+
+After meeting the requirements you should open this project in the command line terminal where your project exists and run the following commands:
+bison -d program.y
+flex program.l
+gcc lex.yy.c program.tab.c
+a
+
+---- You need to press **a** for execution after that it will show the symbol table and successful compilation message.---
+

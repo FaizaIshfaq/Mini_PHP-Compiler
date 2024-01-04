@@ -1,0 +1,21 @@
+<?php
+    $age = 5;
+    $a="hello";
+    $age=2.3;
+    $b='d';
+    $x=33;
+    if (6 > 3) {
+      echo "8 is greater than 3";
+    }else{
+	if(2){
+	echo "he";
+	}
+	while(2>$age) {
+	echo "hello";
+	}
+    }
+/*
+$testObject = new TestClass(5, 10); // Corrected the instantiation
+*/
+
+?>
